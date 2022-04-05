@@ -1,0 +1,113 @@
+.gpnsm-request-loader {
+    display: none;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    z-index: 9999;
+    background: black;
+    opacity: 0.6;
+}
+
+.gpnsm-request-loader.active {
+    display: block;
+}
+
+table th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+table th.th-matched, table td.td-matched {
+    background-color: #fffcfa;
+}
+
+table tr.odd td.td-matched {
+    background-color: #f8f2f0;
+}
+
+table th.th-allowed, table td.td-allowed {
+    background-color: #f6fffb;
+}
+
+table tr.odd td.td-allowed {
+    background-color: #e7f7f2;
+}
+
+table tr.totals td {
+    font-weight: bold;
+}
+
+.product_info {
+    color: #afafaf;
+    display: block;
+}
+
+.dataTables_info, .dataTables_length, .paginate_button.previous, .paginate_button.next {
+    display: block !important;
+}
+
+.data_tables_scroll {
+    max-height: 450px;
+    overflow: auto;
+}
+
+.page-len-button {
+    text-decoration: underline;
+}
+
+.page-len-selected {
+    text-decoration: none;
+    color: black;
+}
+
+.la-trash:hover {
+    cursor: pointer;
+}
+
+.modal-products > tbody > tr > td {
+    padding: .5rem .5rem;
+}
+
+.modal-products > thead > tr > th {
+    padding: .5rem .5rem;
+    white-space: normal;
+}
+
+.js-div-copy, .js-div-source {
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.js-div-copy p, .js-div-source p {
+    margin: 0px;
+}
+
+.js-target-div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.error .select2-container--classic .select2-selection--single,
+.error .select2-container--default .select2-selection--single
+{
+    border-color: #ff4961 !important;
+}
+
+.selector__error {
+    color: #ff4961;
+}
+
+.price-fixed {
+    padding: 17px 0 0;
+    display: block;
+}
+
+.fix-hind-title {
+    float: left;
+    margin: 0 3px 0 0;
+}

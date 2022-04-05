@@ -1,0 +1,64 @@
+.form-group i.la-comment, .form-group i.la-truck {
+    font-size: 22px !important;
+}
+
+i.la-file-text {
+    font-size: 35px !important;
+}
+
+.product_info {
+    color: #afafaf;
+    display: block;
+}
+
+.request-invoice {
+    cursor: pointer;
+}
+
+.general-info__contract {
+    text-decoration: underline;
+}
+
+.sort-history-button {
+    text-decoration: underline;
+}
+
+.sort-history-selected {
+    color: inherit;
+    text-decoration: none;
+}
+
+.table-history-date {
+    width: 10% !important;
+}
+.table-history-code {
+    width: 20% !important;
+}
+
+.history-product-content {
+    position: absolute;
+    z-index: 10000;
+    display: inline-flex;
+    width: 97%;
+}
+div.tooltip-inner-product {
+    background: #fff;
+    border: 1px solid #e3ebf3;
+    color: #000;
+    width: 98%;
+    text-align: left;
+    height: max-content;
+}
+
+.tooltip-product-history.show {
+    opacity: 1 !important;
+}
+
+.table-history {
+    font-size: 12px;
+    vertical-align: top;
+    width:100%;
+}
+.table-history td {
+    vertical-align: top;
+}

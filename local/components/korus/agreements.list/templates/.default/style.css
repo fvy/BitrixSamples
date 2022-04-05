@@ -1,0 +1,8 @@
+.card {
+    overflow-y: auto;
+}
+
+.agreements-data-table thead > tr > th {
+    white-space: normal;
+    vertical-align: middle;
+}
